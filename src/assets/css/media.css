@@ -1,0 +1,461 @@
+@media screen and (max-width: 1150px) {
+    .about__left {
+        width: 250px;
+    }
+
+    .info {
+        height: 100%;
+        padding: 25px 25px 65px 25px;
+        width: 100%;
+    }
+
+    .info__card {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .info__detail {
+        display: block;
+        width: 100%;
+    }
+
+    .info__left {
+        column-gap: 5px;
+    }
+
+    .info__left > img {
+        width: 35px;
+    }
+
+    .info__left > p {
+        font-size: 28px;
+    }
+
+    .date__media {
+        display: none;
+    }
+
+    .info__date {
+        text-align: start;
+        margin-top: -15px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .about__left {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .service__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .third__card {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about__left {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .hamburger {
+        display: flex;
+    }
+
+    header {
+        height: 93vh;
+
+    }
+
+    .date__pc {
+        display: block;
+        margin-top: 2px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+    }
+
+    .nav__list {
+        position: fixed;
+        left: -100%;
+        top: 73.5px;
+        align-items: start;
+        flex-direction: column;
+        height: 100vh;
+        width: 70%;
+        background: #ffffff;
+        padding: 50px 30px;
+        transition: left 0.3s;
+        z-index: 100;
+    }
+
+    .active {
+        left: 0;
+        display: flex;
+    }
+
+    .social {
+        z-index: 1000;
+        flex-direction: row;
+        left: 0;
+        width: 100%;
+        padding: 15px 20px;
+        justify-content: space-between;
+        border-radius: 0;
+        top: unset;
+        bottom: 0;
+    }
+
+    .tooltip .tooltiptext {
+        top: -50px;
+        left: -30px;
+        width: 95px;
+    }
+
+    .overlay {
+        top: 73.5px;
+    }
+
+    .header__content {
+        flex-direction: column;
+        align-items: start;
+        margin-left: 5px;
+    }
+
+    .header__right > img {
+        display: none;
+    }
+
+    .about {
+        height: auto;
+    }
+
+    .about__content {
+        flex-direction: column;
+    }
+
+    .about__left {
+        width: 250px;
+    }
+
+    .about__right {
+        gap: 20px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .about__content {
+        gap: 30px;
+    }
+
+    .swiper {
+        width: 355px;
+        padding: 20px;
+    }
+
+    .project {
+        padding-bottom: 85px;
+    }
+
+    .contact {
+        padding-top: 50px;
+        padding: 50px 0 75px 0;
+        /* height: 100vh; */
+    }
+
+    .contact__content {
+        display: grid;
+        place-items: center;
+    }
+
+    .contact__box {
+        display: grid;
+        place-items: center;
+        padding: 30px 30px;
+        width: 95%;
+    }
+
+    .contact__text {
+        font-size: 22px;
+        padding-bottom: 13px;
+    }
+    .contact__text > span {
+        font-size: 23px;
+    }
+
+    .contact__sub {
+        text-align: center;
+        font-size: 16px;
+        width: unset;
+    }
+
+    .contact__form {
+        display: none;
+    }
+
+    .contact__media {
+        margin: 30px 0 0 0;
+        position: unset;
+        display: block;
+        width: 95%;
+    }
+    .line {
+        margin-top: 50px;
+    
+    }
+    .contact__details {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+        width: 95%;
+        gap: 30px;
+
+    }
+    .contact__list {
+        flex-direction: unset;
+        width: 100%;
+        justify-content: space-around;
+        background: var(--first-color);
+        padding: 15px 0;
+        border-radius: 10px;
+
+    }
+
+    .contact__nums > *{
+        font-size: 22px;
+
+    }
+
+    .scrollUp {
+        right: 15px;
+        bottom: 75px;
+    }
+
+    .scrollUp__button {
+        width: 30px;
+        height: 30px;
+        border-radius: 6px;
+    }
+
+    .scrollUp__button i {
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .contact__nums > li > a {
+        background: transparent;
+
+    }
+    
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .header__title {
+        font-size: 68px;
+        line-height: 62px;
+    }
+
+    .header__btn {
+        font-size: 13px;
+        width: 170px;
+        height: 51px;
+    }
+
+    .tooltip .tooltiptext {
+        font-size: 14px;
+        width: 85px;
+    }
+
+    .project__btn {
+        bottom: 15px;
+    }
+
+    .service__cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .third__card {
+        grid-column: unset;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header__left {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .header__title {
+        font-size: 50px;
+        line-height: 52px;
+    }
+
+    .header__btn {
+        font-size: 13px;
+        width: 170px;
+        height: 51px;
+    }
+
+    .section__title {
+        font-size: 44px;
+        margin-bottom: 50px;
+    }
+
+    .project__card {
+        width: 95%;
+    }
+
+    .contact__input {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .contact__label {
+        font-size: 16px;
+    }
+
+    .contact__input {
+        margin-bottom: 10px;
+    }
+
+    .contact__box {
+        border-radius: 13px;
+    }
+
+    .contact__media {
+        padding: 25px 15px;
+        height: unset;
+        border-radius: 13px;
+    }
+
+    .input__button {
+        font-size: 15px;
+        padding: 10px 0;
+
+    }
+
+    .service__card {
+        height: unset;
+
+    }
+    
+    .service__name {
+        gap: 8px;
+
+    }
+
+    .service__des {
+        margin-top: 5px;
+
+    }
+
+    .service__name > i {
+        font-size: 30px;
+
+    }
+
+    .input__user {
+        padding-left: 40px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .section__title {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    .about__text {
+        font-size: 16px;
+    }
+
+    .info__name {
+        font-size: 22px;
+    }
+
+    .info__left > p {
+        font-size: 25px;
+    }
+
+    .info__sub {
+        font-size: 18px;
+    }
+
+    .info__desc {
+        font-size: 15px;
+    }
+
+    .swiper {
+        width: 290px;
+        padding: 0 0 20px 0;
+    }
+
+    .project__img {
+        width: 100%;
+    }
+
+    .project__btn {
+        width: 100%;
+    }
+
+    .header__title {
+        font-size: 45px;
+        line-height: 42px;
+    }
+
+    .tooltiptext {
+        display: none;
+    }
+    .tooltiptext {
+        display: none;
+    }
+
+    .service__des {
+        font-size: 14px;
+
+    }
+
+    .service__name > h2  {
+        font-size: 16px;
+
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .skills__img {
+        width: 30px;
+    }
+
+    .skills__skill {
+        width: 110px;
+        height: 140px;
+    }
+
+    .skills__name {
+        font-size: 15px;
+    }
+
+    .skills__des {
+        font-size: 13px;
+    }
+
+    .skills__window {
+        padding: 20px 15px 50px 15px;
+    }
+}
