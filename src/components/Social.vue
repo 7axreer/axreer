@@ -5,11 +5,11 @@
             <i class="fab fa-telegram"></i>
         </a>
 
-        <a href="https://www.instagram.com/axreer?igsh=MWgyeWRic2ltemtxYw==" target="_blank" class="social__link instagram tooltip">
+        <a href="https://www.instagram.com/7axreer?igsh=MWgyeWRic2ltemtxYw==" target="_blank" class="social__link instagram tooltip">
             <span class="tooltiptext">Instagram</span>
             <i class="fab fa-instagram"></i>
         </a>
-        <a href="www.linkedin.com/in/axreer7" target="_blank" class="social__link linkedin tooltip">
+        <a href="https://linkedin.com/in/axreer7" target="_blank" class="social__link linkedin tooltip">
             <span class="tooltiptext">LinkedIn</span>
             <i class="fab fa-linkedin-in"></i>
         </a>
