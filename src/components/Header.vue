@@ -43,6 +43,7 @@
     </nav>
 
     <header class="header" id="header">
+        <div class="header__shadow header__gradient"></div>
         <div class="header__shadow"></div>
         <div class="container wrap">
             <div class="header__content">
@@ -58,7 +59,7 @@
                     </a>
                 </div>
                 <div class="header__right">
-                    <img src="@/assets/img/Saidaxror.jpg" alt="" />
+                    <img src="@/assets/img/img-portfolio.jpg" alt="" />
                 </div>
             </div>
         </div>

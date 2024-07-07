@@ -87,6 +87,15 @@ header {
     filter: blur(150px);
 }
 
+.header__gradient {
+    width: 500px;
+    height: 300px;
+    top: -200px;
+    left: -175px;
+    background: linear-gradient(15deg, #ffc83a 25%, #ff008a 55%, #6100ff 70%);
+    transform: rotate(50deg);
+}
+
 .bottom__shadow {
     position: absolute;
     width: 200px;
@@ -96,7 +105,6 @@ header {
     filter: blur(150px);
     bottom: 0;
     left: 0;
-
 }
 
 .header__content {
@@ -146,13 +154,12 @@ header {
 }
 
 .header__right > img {
-    width: 400px;
+    width: 500px;
     border-radius: 20px;
 }
 
 .header__btn:hover {
     background: var(--second-color);
-
 }
 
 /* ! ABOUT START */
@@ -334,16 +341,16 @@ header {
 .project__img {
     background: var(--second-color);
     width: 300px;
-    height: 200px;
+    height: 160px;
     display: grid;
     place-items: center;
     border-radius: 25px;
     padding: 0 15px;
 }
 
-.project__img > video {
-    width: 100%;
-    border-radius: 7px;
+.project__img > img {
+    width: 500px;
+    border-radius: 12px;
 }
 
 .project__btn {
@@ -704,7 +711,6 @@ textarea::-webkit-scrollbar-thumb {
 .input__button:hover {
     background: var(--white-color);
     color: var(--second-color);
-
 }
 
 .input__user {

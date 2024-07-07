@@ -65,35 +65,35 @@ const skills = [
 
     {
         id: 11,
-        video: require("@/assets/video/eb.mp4"),
+        img: require("@/assets/img/img-1.png"),
         des: { en: "Website", ru: "Веб-сайт" },
         name: "e-book",
         URL: "https://7axreer.github.io/e-book/",
     },
     {
         id: 12,
-        video: require("@/assets/video/ec.mp4"),
+        img: require("@/assets/img/img-2.png"),
         des: { en: "Website", ru: "Веб-сайт" },
         name: "e-commerce",
         URL: "https://7axreer.github.io/e-commerse/",
     },
     {
         id: 13,
-        video: require("@/assets/video/pizza.mp4"),
+        img: require("@/assets/img/img-3.png"),
         des: { en: "Website", ru: "Веб-сайт" },
         name: "pizzashop",
         URL: "https://pizzashop-axreer.vercel.app/",
     },
     {
         id: 14,
-        video: require("@/assets/video/db.mp4"),
+        img: require("@/assets/img/img-4.png"),
         des: { en: "Website", ru: "Веб-сайт" },
         name: "dBurger",
         URL: "https://dburger-axreer.vercel.app/",
     },
     {
         id: 15,
-        video: require("@/assets/video/ym.mp4"),
+        img: require("@/assets/img/img-5.png"),
         des: { en: "Website", ru: "Веб-сайт" },
         name: "YourMeal",
         URL: "https://yourmeal-axreer.vercel.app/",
@@ -101,14 +101,14 @@ const skills = [
 
     {
         id: 16,
-        video: require("@/assets/video/car.mp4"),
+        img: require("@/assets/img/img-6.png"),
         des: { en: "Website", ru: "Веб-сайт" },
         name: "fast-car",
         URL: "https://car-axreer.vercel.app/",
     },
     {
         id: 17,
-        video: require("@/assets/video/weather.mp4"),
+        img: require("@/assets/img/img-7.png"),
         des: { en: "Web App", ru: "Веб-Прило" },
         name: "Weather Web App",
         URL: "https://weather-axreer.vercel.app/",

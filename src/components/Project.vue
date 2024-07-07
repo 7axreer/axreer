@@ -23,7 +23,7 @@
                     }">
                     <SwiperSlide class="project__card swiper-slide" v-for="project in projects" :key="project">
                         <div class="project__img">
-                            <video :src="project.video" alt="" type="video/mp4" loop muted autoplay playsinline />
+                            <img :src="project.img" alt=""/>
                         </div>
                         <div class="project__info">
                             <span class="project__des">{{ lang ? project.des.en : project.des.ru }}</span>
